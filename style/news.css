@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+body{
+    background-color: rgb(129, 172, 253);
+}
+.header{
+    max-width: 1600px;
+    height: 120px;
+    background-color: darkolivegreen;
+    border-radius: 0 0 10px 10px;
+    position: relative;
+}
+.header::after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 8px;
+    background-color: blanchedalmond;
+    bottom: 0;
+}
+.header__menu{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.header__menu-nav{
+    color: bisque;
+    text-shadow: 1px 1px 1px #000;
+    font-weight: 900;
+    font-size: 20px;
+    font-style: italic;
+    text-decoration: overline;
+    transition: 0.4s;
+}
+.header__menu-nav:hover{
+    color: #ffe16b;
+}
+
+.main__title {
+    text-align: center;
+    margin-top: 30px;
+    color: blanchedalmond;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #000;
+}
+.main {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.main__block {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.main__box {
+    margin-top: 30px;
+    background-color: rgb(255, 238, 183);
+    border-radius: 6px;
+    max-width: 400px;
+    padding: 20px;
+    border: 4px inset #22b5f0;
+}
+.box__title {
+    text-align: center;
+    color: rgb(4, 188, 4);
+    font-weight: 900;
+    font-style: italic;
+    text-shadow: 1px 1px 1px #000;
+    padding-bottom: 20px;
+}
+.box__img {
+    max-width: 300px;
+    margin-left: 30px;
+    border: 3px inset #017805;
+}
+.box__txt {
+    text-align: center;
+    color: cadetblue;
+    font-weight: 900;
+    margin-top: 20px;
+}
+.main__block2 {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.footer{
+    position: relative;
+    margin-top: 200px;
+    background-color: darkolivegreen;
+    height: 300px;
+}
+.footer::before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 8px;
+    background-color: blanchedalmond;
+}
+.footer__txt{
+    text-align: center;
+    margin-top: 10px;
+    color: beige;
+    text-shadow: 1px 1px 1px #000;
+    font-weight: 900;
+    font-style: italic;
+}
+
+@media(max-width: 767px){
+    .footer-txt{
+        font-size: 15px;
+    }
+}
+@media(max-width: 575px){
+    .footer-txt{
+        font-size: 12px;
+    }
+}

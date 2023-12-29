@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../style/card.css">
+</head>
+<body>
+    <header class="header">
+        <ul class="header__menu">
+            <img src="../img/icons8-bank-80.png" alt="" class="logo">
+            <a href="../index.html" class="header__menu-nav">Головна</a>
+            <a href="./regestration.html" class="header__menu-nav">Реєстрація</a>
+            <a href="../html/card.html" class="header__menu-nav">Отримати картку</a>
+            <a href="./news.html" class="header__menu-nav">Новини</a>
+        </ul>
+    </header>
+    <main class="main">
+        <h1 class="main__title">Отримайте картку зараз!</h1>
+        <p class="main__txt">Заповніть цю форму:</p>
+            <form class="form">
+                <label class="form__label">Введіть Ваше ім'я</label>
+                <input class="form__name" type="text" placeholder="Name">
+        
+                <label class="form__label">Введіть Ваше прізвище</label>
+                <input class="form__surname" type="text" placeholder="Surname">
+        
+                <label class="form__label">Отримати номер картки:</label>
+                <button class="form__receive">Отримати</button>
+                
+                <label class="form__label">Отримати CVV код</label>
+                <button class="form__receive-2">Отримати</button>
+        
+                <label class="form__label">Термін дії картки</label>
+                <input class="form__date" type="date">
+
+                <label for="" class="form__label">Підтвердження</label>
+                <p class="check__txt">Я підтверджую своє замовлення:</p>
+                <input type="checkbox" class="form__check">
+                <a href="" class="form__receive-3">Оформити</a>
+            </form>
+        
+            <div class="card">
+                <div class="card__line">
+                    <p class="card__title">Debit Card</p>
+                    <img src="../img/pngwing.com-2.png" alt="" class="card__master">
+                </div>
+                <img src="../img/card.png" alt="" class="card__chip">
+                <p class="card__name"></p>
+                <p class="card__surname"></p>
+                <p class="card__number"></p>
+                <p class="card__cvv"></p>
+                <p class="card__date"></p>
+            </div>
+
+            <div class="box">
+                <h1 class="box__title">З нашою карткою Ви:</h1>
+                    <div class="box__list">
+                        <div class="box__list-1">
+                            <p class="box__list-txt"><span class="box__number">1.</span> Отримуєте кешбек з кожної покупки</p>
+                            <p class="box__list-txt"><span class="box__number">2.</span> Можете підв'язати її до телефону</p>
+                            <p class="box__list-txt"><span class="box__number">3.</span> Можете приймати участь у різних акціях</p>
+                        </div>
+                        <div class="box__list-2">
+                        <p class="box__list-txt"><span class="box__number">4.</span> Можете сплачувати комунальні послуги</p>
+                        <p class="box__list-txt"><span class="box__number">5.</span> Можете здійснювати міжнароднні перекази за вигідним курсом</p>
+                        <p class="box__list-txt"><span class="box__number">6.</span> Swift перекази без комісії</p>
+                        </div>
+                    </div>
+                <div class="box__images">
+                    <img src="/img/telephone-586268_1280.jpg" alt="" class="box__img">
+                    <img src="/img/dollars-499481_1280.jpg" alt="" class="box__img">
+                </div>
+            </div>
+            
+    </main>
+
+    <footer class="footer">
+        <ul class="header__menu">
+            <img src="../img/icons8-bank-80.png" alt="" class="logo">
+            <a href="../index.html" class="header__menu-nav">Головна</a>
+            <a href="./regestration.html" class="header__menu-nav">Реєстрація</a>
+            <a href="./card.html" class="header__menu-nav">Отримати картку</a>
+            <a href="./news.html" class="header__menu-nav">Новини</a>
+        </ul>
+        <p class="footer__txt">Усі тексти, графіка, логотипи, фотографії та інший контент, розміщений на нашому сайті, захищені авторськими правами. Це означає, що використання, розповсюдження чи модифікація цього матеріалу без нашої письмової згоди є забороненим.</p>
+        <p class="footer__txt">Усі товарні знаки та логотипи, пов'язані з "ProgressBank", є власністю банку. Вони захищені міжнародними законами про товарні знаки, і будь-яке невповноважене використання цих елементів є порушенням наших прав.</p>
+        <p class="footer__txt">Деякий контент на сайті може бути використаний за умови відповідності умовам ліцензій, якщо такі вони передбачені. Усі випадки використання матеріалів повинні мати письмову згоду або ліцензійну угоду.</p>
+        <p class="footer__txt">Ми вдячні за ваше розуміння та співпрацю у збереженні прав та інтересів всіх сторін.</p>
+    </footer>
+    
+    <script src="../script/card.js"></script>
+    <script src="../script/scroll.js"></script>
+</body>
+</html>
